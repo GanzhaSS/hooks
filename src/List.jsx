@@ -14,6 +14,7 @@ const List = () => {
 
     const onClickRemove = () => {
         addNumber([]);
+        // addNumber(numbers.map((num) => ''));
     };
 
     const onClickUpdate = () => {
@@ -23,6 +24,7 @@ const List = () => {
 
     React.useEffect(() => {
         console.log('Обновился');
+
     }, [numbers]);
 
     return (
